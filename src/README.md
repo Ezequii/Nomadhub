@@ -234,13 +234,13 @@ npm run type-check
 
 ### ⚡ Quick Deploy no Vercel
 
-**🎯 [DEPLOY_VERCEL_DEFINITIVO.md](./DEPLOY_VERCEL_DEFINITIVO.md)** - Guia DEFINITIVO profissional ← **COMECE AQUI!**
+**🎯 [PASSOS_FINAIS_DEFINITIVO.md](./PASSOS_FINAIS_DEFINITIVO.md)** - Execute AGORA! Configuração definitiva ← **COMECE AQUI!**
 
-**✅ [CHECKLIST_DEPLOY.md](./CHECKLIST_DEPLOY.md)** - Checklist completo de validação
+**📖 [DEPLOY_VERCEL_DEFINITIVO.md](./DEPLOY_VERCEL_DEFINITIVO.md)** - Guia profissional completo
 
-**🚀 [DEPLOY_AGORA.md](./DEPLOY_AGORA.md)** - Deploy AGORA! 4 passos
+**✅ [CHECKLIST_DEPLOY.md](./CHECKLIST_DEPLOY.md)** - Checklist de validação
 
-**🎉 [ULTIMOS_PASSOS.md](./ULTIMOS_PASSOS.md)** - Últimos 3 passos
+**⚡ [EXECUTE_AGORA.md](./EXECUTE_AGORA.md)** - Resumo executivo 5 minutos
 
 ```bash
 # Método 1: Dashboard (RECOMENDADO)
@@ -322,7 +322,7 @@ Cliente aceita proposta
   → Freelancer entrega
   → Cliente aprova OU prazo expira
   → Liberação automática
-  → Payout instantâneo
+  �� Payout instantâneo
 ```
 
 ### 3. Disputa

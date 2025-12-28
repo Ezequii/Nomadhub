@@ -1,35 +1,11 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-import path from 'path';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
   base: '/',
-  resolve: {
-    alias: {
-      '@': path.resolve(__dirname, './'),
-    },
-  },
-  server: {
-    port: 3000,
-    host: true,
-  },
   build: {
-    outDir: 'dist',
-    emptyOutDir: true,
-    sourcemap: false,
-    chunkSizeWarningLimit: 1000,
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          'react-vendor': ['react', 'react-dom', 'react-router-dom'],
-          'ui-vendor': ['lucide-react', 'recharts'],
-        },
-      },
-    },
-  },
-  optimizeDeps: {
-    include: ['react', 'react-dom', 'react-router-dom'],
-  },
-});
+    outDir: 'dist', // ← isso força o Vite a gerar a pasta dist
+    assetsDir: 'assets'
+  }
+})
