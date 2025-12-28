@@ -232,13 +232,24 @@ npm run type-check
 
 ## 🚢 Deploy
 
-### Opção 1: Vercel (Recomendado)
+### ⚡ Quick Deploy no Vercel
+
+**📖 [DEPLOY_VERCEL.md](./DEPLOY_VERCEL.md)** - Guia completo passo a passo
+
+**🔧 [VERCEL_TROUBLESHOOTING.md](./VERCEL_TROUBLESHOOTING.md)** - Soluções para erros comuns
 
 ```bash
-# Instale a CLI da Vercel
-npm i -g vercel
+# Método 1: Dashboard (RECOMENDADO)
+1. Acesse https://vercel.com/new
+2. Conecte o repositório GitHub
+3. Configure:
+   - Framework: Vite
+   - Build Command: npm run build
+   - Output Directory: dist
+4. Deploy!
 
-# Deploy
+# Método 2: CLI
+npm i -g vercel
 vercel --prod
 ```
 
@@ -251,6 +262,12 @@ npm i -g netlify-cli
 # Deploy
 netlify deploy --prod
 ```
+
+### ✅ Arquivos já configurados:
+- ✅ `/vercel.json` - Configuração do Vercel
+- ✅ `/.vercelignore` - Otimização de deploy
+- ✅ `/vite.config.ts` - Build configurado
+- ✅ `/netlify.toml` - Configuração do Netlify
 
 **📖 Guia completo de deploy**: [EXPORT_AND_DEPLOY.md](./EXPORT_AND_DEPLOY.md)
 
