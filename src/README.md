@@ -234,9 +234,15 @@ npm run type-check
 
 ### ⚡ Quick Deploy no Vercel
 
-**📖 [DEPLOY_VERCEL.md](./DEPLOY_VERCEL.md)** - Guia completo passo a passo
+**🎉 [ULTIMOS_PASSOS.md](./ULTIMOS_PASSOS.md)** - Build funcionou! Últimos 3 passos ← **FAÇA AGORA!**
 
-**🔧 [VERCEL_TROUBLESHOOTING.md](./VERCEL_TROUBLESHOOTING.md)** - Soluções para erros comuns
+**🔧 [BUILD_OUTPUT_FIX.md](./BUILD_OUTPUT_FIX.md)** - Fix para output directory
+
+**🚨 [PASSOS_FINAIS.md](./PASSOS_FINAIS.md)** - Checklist de 5 passos
+
+**⚡ [TEST_BUILD_NOW.md](./TEST_BUILD_NOW.md)** - Teste o build ANTES de fazer deploy
+
+**🎯 [SOLUCAO_DEFINITIVA_VERCEL.md](./SOLUCAO_DEFINITIVA_VERCEL.md)** - Solução definitiva completa
 
 ```bash
 # Método 1: Dashboard (RECOMENDADO)
@@ -264,10 +270,10 @@ netlify deploy --prod
 ```
 
 ### ✅ Arquivos já configurados:
-- ✅ `/vercel.json` - Configuração do Vercel
 - ✅ `/.vercelignore` - Otimização de deploy
 - ✅ `/vite.config.ts` - Build configurado
 - ✅ `/netlify.toml` - Configuração do Netlify
+- ✅ `package.json` - Build script: `vite build`
 
 **📖 Guia completo de deploy**: [EXPORT_AND_DEPLOY.md](./EXPORT_AND_DEPLOY.md)
 

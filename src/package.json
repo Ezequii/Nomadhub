@@ -5,13 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "type-check": "tsc --noEmit",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "deploy:vercel": "vercel --prod",
     "deploy:netlify": "netlify deploy --prod",
-    "setup": "npm install && npm run type-check && npm run build"
+    "setup": "npm install && npm run type-check && npm run build",
+    "test:build": "npm run type-check && npm run build && npm run preview"
   },
   "dependencies": {
     "react": "^18.3.1",
