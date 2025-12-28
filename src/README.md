@@ -234,15 +234,13 @@ npm run type-check
 
 ### ⚡ Quick Deploy no Vercel
 
-**🎉 [ULTIMOS_PASSOS.md](./ULTIMOS_PASSOS.md)** - Build funcionou! Últimos 3 passos ← **FAÇA AGORA!**
+**🎯 [DEPLOY_VERCEL_DEFINITIVO.md](./DEPLOY_VERCEL_DEFINITIVO.md)** - Guia DEFINITIVO profissional ← **COMECE AQUI!**
 
-**🔧 [BUILD_OUTPUT_FIX.md](./BUILD_OUTPUT_FIX.md)** - Fix para output directory
+**✅ [CHECKLIST_DEPLOY.md](./CHECKLIST_DEPLOY.md)** - Checklist completo de validação
 
-**🚨 [PASSOS_FINAIS.md](./PASSOS_FINAIS.md)** - Checklist de 5 passos
+**🚀 [DEPLOY_AGORA.md](./DEPLOY_AGORA.md)** - Deploy AGORA! 4 passos
 
-**⚡ [TEST_BUILD_NOW.md](./TEST_BUILD_NOW.md)** - Teste o build ANTES de fazer deploy
-
-**🎯 [SOLUCAO_DEFINITIVA_VERCEL.md](./SOLUCAO_DEFINITIVA_VERCEL.md)** - Solução definitiva completa
+**🎉 [ULTIMOS_PASSOS.md](./ULTIMOS_PASSOS.md)** - Últimos 3 passos
 
 ```bash
 # Método 1: Dashboard (RECOMENDADO)
