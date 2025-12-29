@@ -50,9 +50,10 @@
       },
     },
     build: {
-      target: 'esnext',
-      outDir: 'build',
-    },
+  target: 'esnext',
+  outDir: 'dist',   // ← ajuste aqui
+  assetsDir: 'assets'
+},
     server: {
       port: 3000,
       open: true,
