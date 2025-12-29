@@ -51,7 +51,7 @@
     },
     build: {
   target: 'esnext',
-  outDir: 'dist',   // ← ajuste aqui
+  outDir: 'dist',
   assetsDir: 'assets'
 },
     server: {
